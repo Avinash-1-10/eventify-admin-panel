@@ -5,17 +5,7 @@ import { IoMail } from 'react-icons/io5';
 
 const Navbar = () => {
   return (
-    <div className='bg-[#222738] h-[70px] flex items-center justify-between px-7 '>
-      {/* search bar */}
-      <div className='bg-[#222738] flex items-center gap-2 rounded-sm p-2 text-white text-[14px]  border border-[#5e5e5f]'>
-        <FiSearch className='text-lg' />
-        <input
-          type='text'
-          placeholder='Search...'
-          className='bg-[#222738] focus:outline-none'
-        />
-      </div>
-
+    <div className='bg-[#222738] h-[70px] flex items-center justify-end px-7 '>
       <div className='flex items-center gap-7'>
         <RiNotification3Fill className='text-2xl text-[#8A92A6]' />
         <IoMail className='text-2xl text-[#8A92A6]' />

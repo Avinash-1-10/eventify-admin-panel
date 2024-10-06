@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import GenrePage from './pages/data/Genre';
 
 const App = () => {
   return (
@@ -13,6 +14,9 @@ const App = () => {
         {/* Protected routes */}
         <Route path='/' element={<Dashboard />} />
         <Route path='/dashboard' element={<Dashboard />} />
+
+        {/* data */}
+        <Route path='/data/genre' element={<GenrePage />} />
       </Routes>
     </BrowserRouter>
   );

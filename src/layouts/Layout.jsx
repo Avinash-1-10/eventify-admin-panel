@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
       {/* Main Content Section */}
       <div className='flex-1 flex flex-col h-screen overflow-y-auto'>
         <Navbar />
-        <div className='flex-1 overflow-y-auto'>
+        <div className='flex-1 overflow-y-auto p-5'>
           {children}
         </div>
       </div>

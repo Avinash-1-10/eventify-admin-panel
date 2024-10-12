@@ -120,7 +120,7 @@ const Genre = () => {
   );
 
   return (
-    <div className="p-6 bg-[#161824] text-white min-h-screen">
+    <div className="bg-[#161824] text-white min-h-screen">
       <div className="flex justify-between mb-4">
         <input
           type="text"

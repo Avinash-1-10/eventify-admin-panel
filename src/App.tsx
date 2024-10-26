@@ -3,6 +3,7 @@ import Dashboard from './pages/Dashboard';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import GenrePage from './pages/data/Genre';
+import Users from "./pages/Users"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         {/* Protected routes */}
         <Route path='/' element={<Dashboard />} />
         <Route path='/dashboard' element={<Dashboard />} />
+        <Route path='/users' element={<Users />} />
 
         {/* data */}
         <Route path='/data/genre' element={<GenrePage />} />
